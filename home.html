@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js" defer></script>
+        <title>New Web
+        </title>
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text"><i class="fa fa-mobile-alt" style="margin-right: 0.1em;"></i> The Tech<span style="color: #069fe6; ">Store</span></span>
+            </div>
+
+            <!--Open Button-->
+            <button id="open-cart-btn">
+                <img src="images/cart.svg" alt="" style="width: 30px;">
+            </button>
+
+            <div class="menubar">
+                <ul class="list">
+                    <li class="list-items"><i class="fa fa-home" style="margin-right: 0.1em;"></i><a href="#"> Home</a></li>
+                    <li class="list-items"><i class="fa fa-mobile-alt" style="margin-right: 0.1em;"></i><a href="#"> Phones</a></li>
+                    <li class="list-items"><i class="fa fa-laptop" style="margin-right: 0.1em;"></i><a href="#"> Laptops</a></li>
+                    <li class="list-items"><i class="fa fa-headphones" style="margin-right: 0.1em;"></i><a href="#"> Accessories</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <section class="section1">
+            <div class="banner">
+              <h1>Get The Latest Deals Here!</h1>
+              <a href="#products">Shop Now</a>
+            </div>
+        </section>
+      
+
+        
+
+        <section class="section2" id="products">
+            <div class="phone">
+                <h1>Deals on Phones</h1>
+                <hr>
+            </div>
+            <div class="product"></div>
+        </section>
+
+
+
+<!----------------------------------------------------------------------------------------->
+        <!--Items-->
+        <div class="items">
+        </div>
+
+        <!--Backdrop-->
+        <div class="backdrop"></div>
+
+
+        <!--Side Cart-->
+        <div id="sidecart" class="sidecart">
+            <div class="cart-content">
+                <!--Cart Header-->
+                <div class="cart-header">
+                    <img src="images/cart.svg" alt="" style="width: 30px;"/>
+                    <div class="header-title">
+                        <h2>Your Cart</h2>
+                        <span id="items-num">0</span>
+                    </div>
+                    <span id="close-btn" class="close-btn">&times;</span>
+                </div> 
+                <!--Cart Items-->
+                <div class="cart-items">
+                    
+                </div>
+                <!--Cart Actions-->
+                <div class="cart-actions">
+                    <div class="subtotal1">
+                        <p>SUBTOTAL:</p>
+                        <p>$<span id=subtotal-price>0</span></p>
+                    </div>
+                    <button>View Cart</button>
+                    <button>Checkout</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
